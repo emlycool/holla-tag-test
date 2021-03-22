@@ -30,8 +30,12 @@ Sending 10 concurrent request at a time. You may need to have more than one bill
 
 ### Setup instruction to test
 `git clone`
+
 `composer install`
+
 `php artisan migrate --seed`
+
 `php artisan bill:users`
+
 Please note integration with billing api isnt implemented. Just mock out using `POST` request of user data to a particular endpoint.
  
